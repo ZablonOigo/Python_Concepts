@@ -88,4 +88,15 @@ i=0
 while i<len(b):
     print(b[i])
     i+=1
+#list comprehension 
+# add values of an existing list to an empty list
+veggies=['kales','cabbage','cucumber','brocolli']
+newveggies=[]
+for f in veggies:
+    if "c" in f:
+        newveggies.append(f)
+print(newveggies)      
 
+#0r shorter syntax
+newveggies=[x for x in veggies if  'c' in x]
+print(newveggies)

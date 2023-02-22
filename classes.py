@@ -101,3 +101,22 @@ d=dogchild()
 d.speak()
 d.bark()
 d.eat()                
+
+
+
+
+#simple arithmetic
+class math:
+    def add(self,x,y):
+        return x+y
+    def multiply(self,x,y):
+        return x*y    
+    def division(self,x,y):
+        return x/y
+    def pow(self,x,y):
+        return x^y
+pupil1=math()
+print(pupil1.multiply(4,5)) 
+print(pupil1.add(4,5))                
+print(pupil1.division(4,5))                
+print(pupil1.pow(4,5))                

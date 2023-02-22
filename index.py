@@ -46,3 +46,9 @@ item=567
 price=49.95
 my_order='I want {} pieces of item {} for {} dollars '
 print(my_order.format(quantity,item,price))
+
+#combine string using F-string
+
+name='guido van rossum'
+est=1991
+print(f'python was created by {name} and released in {est} ')

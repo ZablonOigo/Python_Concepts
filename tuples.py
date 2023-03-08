@@ -28,3 +28,8 @@ else:
 tuple1=tuple(input('enter the tuple element'))
 print(tuple1)
         
+
+
+fruit_list = ['apple', 'orange', 'banana']
+fruit_list2 = list(fruit_list)
+print(id(fruit_list) == id(fruit_list2))  # False

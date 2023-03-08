@@ -100,3 +100,10 @@ print(newveggies)
 #0r shorter syntax
 newveggies=[x for x in veggies if  'c' in x]
 print(newveggies)
+
+# sequence
+numbers = [1, 4, 5, 3, 5, 7, 8, 5]
+print(numbers.index(5, 3, 5))
+print(numbers[2:6])
+print(min(numbers))  # 1
+print(max(numbers))  # 8
